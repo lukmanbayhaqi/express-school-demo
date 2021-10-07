@@ -6,11 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukmanbayhaqi/express-school-demo.git"
+  },
   "keywords": [],
-  "author": "lukman",
+  "author": "lukman bayhaqi",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukmanbayhaqi/express-school-demo/issues"
+  },
+  "homepage": "https://github.com/lukmanbayhaqi/express-school-demo#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
-    "pg": "^8.7.1"
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5"
   }
 }
